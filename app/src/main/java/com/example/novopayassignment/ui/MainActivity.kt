@@ -85,7 +85,7 @@ class MainActivity : BaseActivity<ActivityMainBinding>() {
                     break
                 }
             }
-            return fragment
+            return fragment!!
         }
 
         override fun getCount(): Int {
